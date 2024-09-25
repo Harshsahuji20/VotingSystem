@@ -1,0 +1,93 @@
+*{
+    background-color: #FFF3E0;;
+}
+ .btn{
+    margin: 60px 300px;
+    color: white;
+    background: rebeccapurple;
+    border: 2px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 13px;
+   font-size: 20px;
+}
+h1{
+    font-size: 70px;
+    margin: -8px 500px;
+    color: rebeccapurple;
+    margin-bottom: 100px;
+}
+
+
+.s1{
+    font-size: 24px;
+    color: rgb(121, 23, 64);
+}
+.full{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    margin-left: 7%;
+    display: inline-block;
+    width : 45%;
+    vertical-align: top;
+}
+.l1{
+    background-image: url(group_photo.jpg);
+    background-size: cover;
+    height:150px;
+    width:150px;
+}
+.l2{
+    margin-left: 25px;
+    display: inline-block;
+}
+.grp{
+    font-size: 25px ;
+    display: inline-block;
+    color: rebeccapurple;
+}
+.right{
+    
+    margin-right: 7%;
+    display: inline-block;
+    width:40%;
+    vertical-align: top;
+}
+.r1{
+    margin-left: 35%;
+    height:200px;
+    width:200px;
+    background-image: url(profile.jpg);
+    background-size: cover;
+}
+.r2{
+    text-align: center;
+    padding: 20px;
+}
+.success{
+    color: green;
+}
+.fail{
+    color:red;
+}
+.bg_success{
+    background-color: green;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 8px;
+
+}
+.bg_danger{
+    background-color: red;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 8px;
+
+}
+strong{
+    font-size: 22px;
+    color: red;
+}
